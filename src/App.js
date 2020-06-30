@@ -6,6 +6,7 @@ import Content from "./index";
 import ReactDOM from "react-dom";
 import MedicalAdvice from "./MedicalAdvice";
 import MedicalAdviceList from "./MedicalAdviceList";
+import DrugIndex from "./DrugIndex";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/index" component={ Content } />
           <Route path="/medicalAdvice" component={ MedicalAdvice } />
           <Route path="/medicalAdviceList" component={ MedicalAdviceList } />
+          <Route path="/drugIndex" component={ DrugIndex } />
       </Router>
   );
 }
